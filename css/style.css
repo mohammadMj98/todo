@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Poppins", system-ui;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+.main-seaction {
+    overflow: hidden;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: 1rem; 
+} 
+
+.container h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+
+}
+.container input {
+    width: 500px;
+    outline: none;
+    border: none;
+}
+.btn {
+    width: 112px;
+    padding: 12px 20px;
+    border-radius: 5rem;
+}
+.add-btn {
+    background-color: #428bca;
+    border-color: #357ebd;
+    border: none;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #d9534f;
+    border-color: #357ebd;
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+
+.todolist {
+    margin: 2rem 0;
+    width: 66%;
+}
+
+.todolist .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border:1px solid #e3e3e3;
+    border-radius: 1rem;
+    background-color: #f5f5f5;
+    margin-bottom: 1rem;
+}
+.todo-title{
+    font-weight: 500;
+}
+.todo-title.completed {
+    text-decoration:line-through;
+    color: #c7c6c6;
+}
+.complete-btn {
+    background-color: rgb(41 153 41);
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+
