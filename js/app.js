@@ -27,6 +27,7 @@ function addTodo() {
         updateLocalStorage(todoArray);
         renderTodos(todoArray);
         inputItem.value = ''; 
+        inputItem.focus()
     } else {
         alert('Oops! Please enter a valid value.');
     }
